@@ -1,5 +1,6 @@
 package com.pozharsky.dmitri.util;
 
+import com.pozharsky.dmitri.exception.PageNumberFormatException;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
