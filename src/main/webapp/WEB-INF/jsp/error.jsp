@@ -8,19 +8,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Page numbers</title>
+    <title>Reduce page numbers</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <form action="${pageContext.request.contextPath}/reducedPageNumbers">
-            <div class="form-group">
-                <label for="pageNumbers">Enter page numbers:</label>
-                <input type="text" class="form-control" id="pageNumbers" name="rawPageNumbers" aria-describedby="pageNumbersHelp" placeholder="for example: 1,2,3,10,7,9">
-                <small id="pageNumbersHelp" class="form-text text-muted">Enter page numbers separated comma</small>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-    </div>
+<div class="container-fluid">
+    <h1>HTTP/1.1 500 Internal Server Error</h1>
+    <h3>${message}</h3>
+</div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

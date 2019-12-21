@@ -12,7 +12,8 @@
 </head>
 <body>
 <div class="container-fluid">
-    <h1>${reducePageNumbers}</h1>
+    <h1>HTTP/1.1 200 OK</h1>
+    <h3>${reducePageNumbers}</h3>
 </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
