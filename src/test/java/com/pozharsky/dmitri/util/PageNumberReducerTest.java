@@ -1,6 +1,7 @@
 package com.pozharsky.dmitri.util;
 
 import com.pozharsky.dmitri.configuration.TestAppConfig;
+import com.pozharsky.dmitri.exception.PageNumberFormatException;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
